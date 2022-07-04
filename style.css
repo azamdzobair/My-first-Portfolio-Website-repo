@@ -13,14 +13,15 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
-.up-place {
+.half-place {
     width: 50%;
     padding: 2px
 }
 
-.up-place img {
+.half-place img {
     width: 80%;
 }
 
@@ -35,4 +36,10 @@ section {
 .top-banner {
     background-image: url(pic/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.Dream-Big {
+    background-image: url(pic/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
